@@ -8,9 +8,9 @@ public class Nombresmil{
 		return palabra;
 	}
 	public static void main (String args[]){
-		String palabra;
+		String palabra="";
 		while(true){
-			palabra = anyade();
+			palabra += anyade();
 			System.out.println("penerabofalopalotrankapicha"+palabra);
 		}
 	}
